@@ -12,3 +12,6 @@ ML Spreadsheet: Practice ML daily.
 | Day 3 | Probability | Probability What is Probability?  | https://www.youtube.com/watch?v=EGgMCE2AgyU&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=3       |       | 
 | Day 4 |  Linear Algebra |Factorization into A = LU |https://www.youtube.com/watch?v=MsIvs_6vC38&list=PLE7DDD91010BC51F8&index=4&t=0s  | |
 | Day 4 | Probability |Conditional Probability and Bayes |https://www.youtube.com/watch?v=NHRoXvPaZqY&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=5  | |
+| Day 5 | Probability |Independence | https://youtube.com/watch?v=zTJDZ2wmaRU&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=5  |   |
+| Day 5 |  Linear Algebra | Transposes, Permutations, Spaces R^n | https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=6   |     |
+
