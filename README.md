@@ -14,4 +14,5 @@ ML Spreadsheet: Practice ML daily.
 | Day 4 | Probability |Conditional Probability and Bayes |https://www.youtube.com/watch?v=NHRoXvPaZqY&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=5  | |
 | Day 5 | Probability |Independence | https://youtube.com/watch?v=zTJDZ2wmaRU&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=5  |   |
 | Day 5 |  Linear Algebra | Transposes, Permutations, Spaces R^n | https://www.youtube.com/watch?v=JibVXBElKL0&list=PLE7DDD91010BC51F8&index=6   |     |
-
+| Day 6 |  Linear Algebra | Column Space and Nullspace | https://www.youtube.com/watch?v=8o5Cmfpeo6g&list=PLE7DDD91010BC51F8&index=7   |     |
+| Day 6 |  Probability |  Random Variables and Expectation |   https://www.youtube.com/watch?v=8QCg2ur-3fo&list=PLoROMvodv4rOpr_A7B9SriE_iZmkanvUg&index=6 |     |
