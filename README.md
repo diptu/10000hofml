@@ -12,6 +12,12 @@
 - This process shrinks the image.
 - Information from corner/edge points is discarded.
 
+## Limitation:
+- Images shirinks
+- Pixels in the edges are considered less than in the middle of the image.
+
+1. **valid convolution**: No Padding
+2. **same convolution**: Output image and input image size are equal.
 ## Padding
 - By convention, padding is done with zeros.
 **NxN matrices are convolved by FxF filter/kernel with padding of p; the output would be (N+2p-F+1) by (N+2p-F+1) matrices.**
