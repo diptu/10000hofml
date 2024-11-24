@@ -53,3 +53,11 @@
 - if we now apply another a 5x5 filter, with stride s= 2 and no padding p = 0, 40 filters
 - output image size 7 x 7 x 40,  n<sub>h</sub> = 7, n<sub>w</sub> = 7, n<sub>c</sub> = 40
 -  flatten 7x 7 x 40 = 1960 units and feed to a logistic/softmax unit to predict ŷ
+
+
+### Day 003: Lnet -5
+
+<p>
+    <img src="./lenet.svg" alt="Lnet-5">
+    <em>Lnet-5</em>
+</p>
