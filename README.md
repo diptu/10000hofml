@@ -61,3 +61,17 @@
     <img src="./lenet.svg" alt="Lnet-5">
     <em>Lnet-5</em>
 </p>
+
+
+## NLP:
+
+### Day 001: WordNet, word2vec, word embedding, bilingual word-embedding
+- https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
+- https://www.youtube.com/watch?v=rmVRLeJRkl4
+- https://wordnet.princeton.edu/
+- https://www.tensorflow.org/text/tutorials/word2vec
+- https://www.tensorflow.org/text/guide/word_embeddings
+- https://blog.okfn.org/2010/06/30/wordnet-a-large-lexical-database-for-english/
+
+### Day 002:
+https://karpathy.github.io/2019/04/25/recipe/
