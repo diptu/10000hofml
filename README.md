@@ -74,4 +74,11 @@
 - https://blog.okfn.org/2010/06/30/wordnet-a-large-lexical-database-for-english/
 
 ### Day 002:
-https://karpathy.github.io/2019/04/25/recipe/
+- https://karpathy.github.io/2019/04/25/recipe/
+
+
+## LLM
+
+### Day 01 : Fine-tune Llama-3.2-1B-Instruct-bnb-4bit  with Unsloth
+- https://huggingface.co/blog/mlabonne/sft-llama3
+- https://colab.research.google.com/drive/1T5-zKWM_5OD21QHwXHiV9ixTRR7k3iB9?usp=sharing#scrollTo=C_sGp5XlG6dq
