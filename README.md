@@ -75,6 +75,7 @@
 
 ### Day 002:
 - https://karpathy.github.io/2019/04/25/recipe/
+- https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
 
 
 ## LLM
