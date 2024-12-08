@@ -77,6 +77,8 @@
 - https://karpathy.github.io/2019/04/25/recipe/
 - https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b
 
+### Day 003:Tokenization and Encoding
+- https://datajenius.com/2022/03/13/a-deep-dive-into-nlp-tokenization-encoding-word-embeddings-sentence-embeddings-word2vec-bert/
 
 ## LLM
 
