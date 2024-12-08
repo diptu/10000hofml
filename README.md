@@ -69,6 +69,7 @@
 - https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
 - https://www.youtube.com/watch?v=rmVRLeJRkl4
 - https://wordnet.princeton.edu/
+- https://www.youtube.com/watch?v=viZrOnJclY0
 - https://www.tensorflow.org/text/tutorials/word2vec
 - https://www.tensorflow.org/text/guide/word_embeddings
 - https://blog.okfn.org/2010/06/30/wordnet-a-large-lexical-database-for-english/
