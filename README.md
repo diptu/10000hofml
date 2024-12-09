@@ -72,6 +72,7 @@
 - https://www.youtube.com/watch?v=viZrOnJclY0
 - https://www.tensorflow.org/text/tutorials/word2vec
 - https://www.tensorflow.org/text/guide/word_embeddings
+- http://jalammar.github.io/illustrated-bert/
 - https://blog.okfn.org/2010/06/30/wordnet-a-large-lexical-database-for-english/
 
 ### Day 002:
@@ -86,3 +87,12 @@
 ### Day 01 : Fine-tune Llama-3.2-1B-Instruct-bnb-4bit  with Unsloth
 - https://huggingface.co/blog/mlabonne/sft-llama3
 - https://colab.research.google.com/drive/1T5-zKWM_5OD21QHwXHiV9ixTRR7k3iB9?usp=sharing#scrollTo=C_sGp5XlG6dq
+
+
+### Day 02 : huggingface Transformer, Fine-tune LLM
+-https://www.youtube.com/watch?v=jan07gloaRg&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0&index=5
+-https://www.youtube.com/watch?v=eC6Hd1hFvos&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0&index=5
+
+
+## TOOLS:
+-https://www.desmos.com/calculator
