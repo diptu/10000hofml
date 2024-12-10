@@ -63,9 +63,11 @@
 </p>
 
 
-## NLP:
+### Day 004: Cats vs dogs - classification
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
-### Day 001: WordNet, word2vec, word embedding, bilingual word-embedding
+
+### Day 001: WordNet, word2vec, word embedding, bilingual word-embedding,CS224N
 - https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
 - https://www.youtube.com/watch?v=rmVRLeJRkl4
 - https://wordnet.princeton.edu/
@@ -92,6 +94,8 @@
 ### Day 02 : huggingface Transformer, Fine-tune LLM
 -https://www.youtube.com/watch?v=jan07gloaRg&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0&index=5
 -https://www.youtube.com/watch?v=eC6Hd1hFvos&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0&index=5
+-https://www.datacamp.com/tutorial/unsloth-guide-optimize-and-speed-up-llm-fine-tuning
+-https://docs.unsloth.ai/
 
 
 ## TOOLS:
