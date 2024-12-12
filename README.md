@@ -66,6 +66,11 @@
 ### Day 004: Cats vs dogs - classification
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
+### Day 005: Pretrained models in CNN, Transfer Learning
+- https://keras.io/api/applications/
+-https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/
+- https://colah.github.io/posts/2014-07-Understanding-Convolutions/
+- https://colah.github.io/posts/2015-01-Visualizing-Representations/
 
 ### Day 001: WordNet, word2vec, word embedding, bilingual word-embedding,CS224N
 - https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
