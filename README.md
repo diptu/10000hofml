@@ -102,6 +102,10 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 -https://www.datacamp.com/tutorial/unsloth-guide-optimize-and-speed-up-llm-fine-tuning
 -https://docs.unsloth.ai/
 
+### Day 03:
+-https://www.youtube.com/watch?v=ZLbVdvOoTKM&list=PLz-ep5RbHosU2hnz5ejezwaYpdMutMVB0&index=11
+- https://colah.github.io/posts/2015-09-NN-Types-FP/
+
 
 ## TOOLS:
 -https://www.desmos.com/calculator
