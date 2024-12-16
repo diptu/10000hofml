@@ -109,3 +109,18 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 
 ## TOOLS:
 -https://www.desmos.com/calculator
+
+
+## Blog'S
+- https://karpathy.ai/zero-to-hero.html
+- https://colah.github.io/archive.html
+- https://leetcode.com/explore/featured/card/machine-learning-101
+- https://www.deep-ml.com/
+- https://deepmleet.streamlit.app/
+- https://github.com/karpathy/minGPT
+- https://minigpt-4.github.io/
+  
+
+## Resources:
+-https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/tree/main
+- https://github.com/greyhatguy007/deep-learning-specialization
