@@ -119,8 +119,19 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 - https://deepmleet.streamlit.app/
 - https://github.com/karpathy/minGPT
 - https://minigpt-4.github.io/
+- https://distill.pub/
+- https://lena-voita.github.io/nlp_course.html
   
+## Tensorflow 
+- https://datahacker.rs/tensorflow/
+- https://machinelearningmastery.com/keras-functional-api-deep-learning/
 
 ## Resources:
 -https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/tree/main
 - https://github.com/greyhatguy007/deep-learning-specialization
+- http://neuralnetworksanddeeplearning.com/
+- https://datahacker.rs/neural-networks-with-python-and-pytorch/
+- https://github.com/dvgodoy/PyTorchStepByStep
+- https://madewithml.com/
+- https://github.com/SylphAI-Inc/LLM-engineer-handbook
+- https://www.marl-book.com/
