@@ -89,6 +89,10 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 ### Day 003:Tokenization and Encoding
 - https://datajenius.com/2022/03/13/a-deep-dive-into-nlp-tokenization-encoding-word-embeddings-sentence-embeddings-word2vec-bert/
 
+### Day 004:RNN
+-https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+-https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 ## LLM
 
 ### Day 01 : Fine-tune Llama-3.2-1B-Instruct-bnb-4bit  with Unsloth
@@ -126,6 +130,9 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 - https://datahacker.rs/tensorflow/
 - https://machinelearningmastery.com/keras-functional-api-deep-learning/
 
+## Day 01 : Introduction to TensorFlow 2.0
+- https://datahacker.rs/introduction-into-tensorflow/
+
 ## Resources:
 -https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/tree/main
 - https://github.com/greyhatguy007/deep-learning-specialization
@@ -135,3 +142,5 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 - https://madewithml.com/
 - https://github.com/SylphAI-Inc/LLM-engineer-handbook
 - https://www.marl-book.com/
+- https://d2l.ai/index.html
+- https://www.nlpdemystified.org/course
