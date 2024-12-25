@@ -90,8 +90,10 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 - https://datajenius.com/2022/03/13/a-deep-dive-into-nlp-tokenization-encoding-word-embeddings-sentence-embeddings-word2vec-bert/
 
 ### Day 004:RNN
+-https://www.youtube.com/watch?v=4KpRP-YUw6c&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=55
 -https://karpathy.github.io/2015/05/21/rnn-effectiveness/
 -https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 
 ## LLM
 
@@ -144,3 +146,4 @@ https://blog.keras.io/building-powerful-image-classification-models-using-very-l
 - https://www.marl-book.com/
 - https://d2l.ai/index.html
 - https://www.nlpdemystified.org/course
+- https://github.com/codecrafters-io/build-your-own-x
