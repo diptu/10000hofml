@@ -21,3 +21,11 @@
 
 ## Dive into Deep Learning:
 - [Introduction](https://d2l.ai/chapter_introduction/index.html)
+
+
+
+### [UC Berkeley, STAT 157](https://www.youtube.com/watch?v=Va8WWRfw7Og&list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW&index=1)
+
+### [ Machine learning](https://www.youtube.com/watch?v=yDLKJtOVx5c&list=PLD0F06AA0D2E8FFBA&index=1)
+
+### [ML-caltech](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A)
