@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/diptu/10000hofml/tutorials/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>tutorials - 10000hofml</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "tutorials";
+        var mkdocs_page_input_path = "tutorials/index.md";
+        var mkdocs_page_url = "/diptu/10000hofml/tutorials/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 10000hofml
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">tutorials</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#what-youll-learn">📌 What You'll Learn</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#linear-regression-overview">📈 Linear Regression Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#squared-error-cost-function-for-linear-regression">📉 Squared Error Cost Function for Linear Regression</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cost-function-formula">🧮 Cost Function Formula</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#intuition">🔍 Intuition</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#python-equivalent">✅ Python Equivalent</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#goal-function">🎯 Goal Function</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-do-we-minimize-it">🔧 How Do We Minimize It?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#final-objective">🧠 Final Objective</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../reference.md">Refference</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">10000hofml</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">tutorials</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="day-01-linear-regression-from-scratch">📅 Day 01 – Linear Regression (from Scratch)</h1>
+<p>Welcome to <strong>Day 01</strong> of the <a href="../">100 Days of ML/DL</a> challenge!<br />
+Today’s focus is on understanding and implementing <strong>Linear Regression from scratch</strong> using pure Python and NumPy — no ML libraries like Scikit-learn.</p>
+<hr />
+<h2 id="what-youll-learn">📌 What You'll Learn</h2>
+<ul>
+<li>What Linear Regression is</li>
+<li>How it models the relationship between input and output</li>
+<li>Implementing it using gradient descent</li>
+<li>Evaluating model performance using R² (coefficient of determination)</li>
+</ul>
+<hr />
+<h2 id="linear-regression-overview">📈 Linear Regression Overview</h2>
+<p>Linear Regression is one of the simplest and most widely used supervised learning algorithms. It attempts to model the relationship between a scalar dependent variable <code>y</code> and an independent variable <code>x</code> by fitting a linear equation:</p>
+<div class="arithmatex">\[
+y = wx + b
+\]</div>
+<div class="admonition info">
+<p class="admonition-title">Where:</p>
+</div>
+<ul>
+<li><code>w</code> is the <strong>slope</strong></li>
+<li><code>b</code> is the <strong>intercept</strong></li>
+</ul>
+<p>The goal is to minimize the <strong>Mean Squared Error (MSE)</strong> between the predicted and actual values.</p>
+<hr />
+<h2 id="squared-error-cost-function-for-linear-regression">📉 Squared Error Cost Function for Linear Regression</h2>
+<p>In Linear Regression, the <strong>cost function</strong> measures how well our model's predictions match the actual data. The most commonly used cost function is the <strong>Mean Squared Error (MSE)</strong>.</p>
+<hr />
+<h3 id="cost-function-formula">🧮 Cost Function Formula</h3>
+<div class="arithmatex">\[
+J(w, b) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+\]</div>
+<div class="admonition info">
+<p class="admonition-title">Notation</p>
+</div>
+<ul>
+<li><span class="arithmatex">\( n \)</span> is the number of training examples</li>
+<li><span class="arithmatex">\( y_i \)</span> is the actual output for the <span class="arithmatex">\( i \)</span>-th training example</li>
+<li><span class="arithmatex">\( \hat{y}_i = wx_i + b \)</span> is the predicted output from the model</li>
+<li><span class="arithmatex">\( w \)</span> is the slope (weight)</li>
+<li><span class="arithmatex">\( b \)</span> is the intercept (bias)</li>
+</ul>
+<hr />
+<h3 id="intuition">🔍 Intuition</h3>
+<p>The cost function calculates the <strong>average of the squared differences</strong> between the predicted values and the actual values. Squaring ensures that:
+- Errors don't cancel out
+- Larger errors are penalized more than smaller ones</p>
+<p>The goal of training is to <strong>minimize this cost</strong> by adjusting the parameters <span class="arithmatex">\( w \)</span> and <span class="arithmatex">\( b \)</span>.</p>
+<hr />
+<h3 id="python-equivalent">✅ Python Equivalent</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">compute_cost</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">w</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">predictions</span> <span class="o">=</span> <span class="n">w</span> <span class="o">*</span> <span class="n">X</span> <span class="o">+</span> <span class="n">b</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">errors</span> <span class="o">=</span> <span class="n">y</span> <span class="o">-</span> <span class="n">predictions</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">cost</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">n</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">errors</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="k">return</span> <span class="n">cost</span>
+</span></code></pre></div>
+<h3 id="goal-function">🎯 Goal Function</h3>
+<p>To minimize the cost, we want to find the values of <span class="arithmatex">\( w \)</span> and <span class="arithmatex">\( b \)</span> that result in the <strong>smallest possible value of <span class="arithmatex">\( J(w, b) \)</span></strong>:</p>
+<div class="arithmatex">\[
+\min_{w, b} \; J(w, b)
+\]</div>
+<p>This means:</p>
+<blockquote>
+<p>Find the values of <strong><span class="arithmatex">\( w \)</span></strong> and <strong><span class="arithmatex">\( w \)</span></strong> that make the sum of squared prediction errors as small as possible.</p>
+</blockquote>
+<hr />
+<h3 id="how-do-we-minimize-it">🔧 How Do We Minimize It?</h3>
+<p>We typically use an optimization algorithm such as <strong>Gradient Descent</strong>, which updates <span class="arithmatex">\( m \)</span> and <span class="arithmatex">\( b \)</span> iteratively in the direction of the negative gradient:</p>
+<div class="arithmatex">\[
+\begin{aligned}
+w &amp;:= w - \alpha \cdot \frac{\partial J}{\partial w} \\
+b &amp;:= b - \alpha \cdot \frac{\partial J}{\partial b}
+\end{aligned}
+\]</div>
+<p>Where:
+- <span class="arithmatex">\( \alpha \)</span> is the <strong>learning rate</strong>
+- <span class="arithmatex">\( \frac{\partial J}{\partial m} \)</span>, <span class="arithmatex">\( \frac{\partial J}{\partial b} \)</span> are the <strong>partial derivatives</strong> of the cost function</p>
+<hr />
+<h3 id="final-objective">🧠 Final Objective</h3>
+<p>Find:</p>
+<div class="arithmatex">\[
+(w^*, b^*) = \arg\min_{w, b} J(w, b)
+\]</div>
+<p>Such that predictions are as accurate as possible based on the training data.</p>
+<!-- ## 🧪 Files Included -->
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../javascripts/mathjax.js"></script>
+      <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
