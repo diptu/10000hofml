@@ -3,22 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/diptu/10000hofml/tutorials/" />
-      <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>tutorials - 10000hofml</title>
-    <link rel="stylesheet" href="../css/theme.css" />
-    <link rel="stylesheet" href="../css/theme_extra.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/diptu/10000hofml/tutorials/Day-01/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>📅 Day 01 – Linear Regression (from Scratch) - 10000hofml</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "tutorials";
-        var mkdocs_page_input_path = "tutorials/index.md";
-        var mkdocs_page_url = "/diptu/10000hofml/tutorials/";
+        var mkdocs_page_name = "\ud83d\udcc5 Day 01 \u2013 Linear Regression (from Scratch)";
+        var mkdocs_page_input_path = "tutorials/Day-01/index.md";
+        var mkdocs_page_url = "/diptu/10000hofml/tutorials/Day-01/";
       </script>
     
     <!--[if lt IE 9]>
-      <script src="../js/html5shiv.min.js"></script>
+      <script src="../../js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
       <script>hljs.highlightAll();</script> 
@@ -30,9 +30,9 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> 10000hofml
+          <a href="../.." class="icon icon-home"> 10000hofml
         </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -40,37 +40,15 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
-                </li>
-              </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">tutorials</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#what-youll-learn">📌 What You'll Learn</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#linear-regression-overview">📈 Linear Regression Overview</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#squared-error-cost-function-for-linear-regression">📉 Squared Error Cost Function for Linear Regression</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#cost-function-formula">🧮 Cost Function Formula</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#intuition">🔍 Intuition</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#python-equivalent">✅ Python Equivalent</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#goal-function">🎯 Goal Function</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#how-do-we-minimize-it">🔧 How Do We Minimize It?</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#final-objective">🧠 Final Objective</a>
-    </li>
-        </ul>
-    </li>
-    </ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="" href="../reference.md">Refference</a>
+                <li class="toctree-l1"><a class="" href="../index.md">tutorials</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../reference.md">Refference</a>
                 </li>
               </ul>
       </div>
@@ -80,14 +58,14 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">10000hofml</a>
+          <a href="../..">10000hofml</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">tutorials</li>
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">📅 Day 01 – Linear Regression (from Scratch)</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -97,7 +75,7 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="day-01-linear-regression-from-scratch">📅 Day 01 – Linear Regression (from Scratch)</h1>
-<p>Welcome to <strong>Day 01</strong> of the <a href="../">100 Days of ML/DL</a> challenge!<br />
+<p>Welcome to <strong>Day 01</strong> of the <a href="../../">100 Days of ML/DL</a> challenge!<br />
 Today’s focus is on understanding and implementing <strong>Linear Regression from scratch</strong> using pure Python and NumPy — no ML libraries like Scikit-learn.</p>
 <hr />
 <h2 id="what-youll-learn">📌 What You'll Learn</h2>
@@ -186,9 +164,6 @@ b &amp;:= b - \alpha \cdot \frac{\partial J}{\partial b}
               
             </div>
           </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-    </div>
 
   <hr/>
 
@@ -210,18 +185,16 @@ b &amp;:= b - \alpha \cdot \frac{\partial J}{\partial b}
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
-    
     
   </span>
 </div>
-    <script src="../js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = "..";</script>
-    <script src="../js/theme_extra.js"></script>
-    <script src="../js/theme.js"></script>
-      <script src="../javascripts/mathjax.js"></script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../javascripts/mathjax.js"></script>
       <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-      <script src="../search/main.js"></script>
+      <script src="../../search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
