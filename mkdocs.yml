@@ -39,6 +39,6 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
   - Home: index.md
-  - tutorials: ./tutorials/index.md
+  - tutorials: tutorials/
   - Refference : reference.md
   # - explanation.md

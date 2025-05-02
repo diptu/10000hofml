@@ -23,7 +23,7 @@ Each day includes:
 ## 🧠 Topics Covered
 
 - Supervised Learning
-  - [Linear Regression](./tutorials/Day-01/index.md)
+  - [Linear Regression](./tutorials/index.md)
   - Logistic Regression
   - Decision Trees
   - SVMs
