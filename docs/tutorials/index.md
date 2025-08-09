@@ -3,7 +3,18 @@
 Welcome to **Day 01** of the [100 Days of ML/DL](../../index.md) challenge!  
 Today’s focus is on understanding and implementing **Linear Regression from scratch** using pure Python and NumPy — no ML libraries like Scikit-learn.
 
+
+## Suggested Readings:
+- [Linear Regression-MLU](https://mlu-explain.github.io/linear-regression/)
+- **Intro to Machine Learning:Coursera**:
+    - [Week 01]((https://www.coursera.org/learn/machine-learning/home/week/1))
+    - [Week 02](https://www.coursera.org/learn/machine-learning/home/week/2)
+- [Linear Regression-CampusX](https://www.youtube.com/watch?v=UZPfbG0jNec&list=PLKnIA16_Rmva-wY_HBh1gTH32ocu2SoTr&index=1)
+- [Comprehensive Guide to Linear Regression: Examples and Model Diagnostics](https://blog.bytescrum.com/comprehensive-guide-to-linear-regression-examples-and-model-diagnostics)
+- [Where Did The Assumptions of Linear Regression Originate From?](https://www.dailydoseofds.com/where-did-the-assumptions-of-linear-regression-originate-from/)
+
 ---
+
 
 ## 📌 What You'll Learn
 
@@ -30,9 +41,13 @@ The goal is to minimize the **Mean Squared Error (MSE)** between the predicted a
 
 ---
 
-## 📉 Squared Error Cost Function for Linear Regression
+## 📉 Squared Error Cost Function:
 
 In Linear Regression, the **cost function** measures how well our model's predictions match the actual data. The most commonly used cost function is the **Mean Squared Error (MSE)**.
+MSE quantifies how close a predicted value is to the true value, so we'll use it to quantify how close a regression line is to a set of points. MSE works by squaring the distance between each data point and the regression line, summing the squared values, and then dividing by the number of data points
+$$
+\text{MSE} = \frac{1}{m} \sum_{i=1}^{m} \left( \hat{y}_i - y_i \right)^2
+$$
 
 ---
 
