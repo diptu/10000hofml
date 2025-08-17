@@ -1,0 +1,14 @@
+[project]
+name = "10000hofml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "Make your own neural networks/manimations",
+]
